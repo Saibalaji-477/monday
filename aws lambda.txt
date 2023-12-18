@@ -1,0 +1,7 @@
+package com.mcnz.aws.lambda;
+
+public class AwsLambdaFunctions {
+	public String alterPayload(String Payload) {
+	System.out.println("You are in heaven..");
+	return Payload.replace('l','4').replace('h','6');
+}}
